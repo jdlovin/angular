@@ -11,6 +11,7 @@ import { MainComponent } from './component/main/main.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { PropertyBindComponent } from './component/property-bind/property-bind.component';
+import { InputComponent } from './component/input/input.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PropertyBindComponent } from './component/property-bind/property-bind.c
     MainComponent,
     HeaderComponent,
     FooterComponent,
-    PropertyBindComponent
+    PropertyBindComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,

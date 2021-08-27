@@ -1,0 +1,11 @@
+<h1>{{ message }}</h1>
+<button (click)="onButtonClicked()">Click me 🤗</button>
+<input type="text" (change)="onChange()">
+<br>
+<input type="text" #myInput /><button (click)="onGetValue(myInput.value)">Get the value</button>
+
+<hr>
+<br>
+
+<textarea #myText (keyup)="onKeyUp(myText.value)" ></textarea>
+<h1>{{ comment.length }}</h1>
