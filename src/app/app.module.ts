@@ -14,6 +14,7 @@ import { PropertyBindComponent } from './component/property-bind/property-bind.c
 import { InputComponent } from './component/input/input.component';
 import { StyleBindComponent } from './component/style-bind/style-bind.component';
 import { WhatIfComponent } from './component/what-if/what-if.component';
+import { SwitchComponent } from './component/switch/switch.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { WhatIfComponent } from './component/what-if/what-if.component';
     PropertyBindComponent,
     InputComponent,
     StyleBindComponent,
-    WhatIfComponent
+    WhatIfComponent,
+    SwitchComponent
   ],
   imports: [
     BrowserModule,
