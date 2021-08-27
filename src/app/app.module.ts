@@ -13,6 +13,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { PropertyBindComponent } from './component/property-bind/property-bind.component';
 import { InputComponent } from './component/input/input.component';
 import { StyleBindComponent } from './component/style-bind/style-bind.component';
+import { WhatIfComponent } from './component/what-if/what-if.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { StyleBindComponent } from './component/style-bind/style-bind.component'
     FooterComponent,
     PropertyBindComponent,
     InputComponent,
-    StyleBindComponent
+    StyleBindComponent,
+    WhatIfComponent
   ],
   imports: [
     BrowserModule,
