@@ -10,6 +10,7 @@ import { SidebarComponent } from './component/sidebar/sidebar.component';
 import { MainComponent } from './component/main/main.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { PropertyBindComponent } from './component/property-bind/property-bind.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './component/footer/footer.component';
     SidebarComponent,
     MainComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PropertyBindComponent
   ],
   imports: [
     BrowserModule,
