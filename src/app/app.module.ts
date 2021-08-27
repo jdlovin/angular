@@ -15,6 +15,7 @@ import { InputComponent } from './component/input/input.component';
 import { StyleBindComponent } from './component/style-bind/style-bind.component';
 import { WhatIfComponent } from './component/what-if/what-if.component';
 import { SwitchComponent } from './component/switch/switch.component';
+import { ForWhatComponent } from './component/for-what/for-what.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SwitchComponent } from './component/switch/switch.component';
     InputComponent,
     StyleBindComponent,
     WhatIfComponent,
-    SwitchComponent
+    SwitchComponent,
+    ForWhatComponent
   ],
   imports: [
     BrowserModule,

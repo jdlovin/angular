@@ -1,0 +1,21 @@
+<h1>Structural Directives - ngFor 4️⃣</h1>
+
+<h1>Player list</h1>
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Position</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let player of players; even as e;" [style.background]="e ? '#ccc' : '#fff'"  >
+            <td>{{player.id}}</td>
+            <td>{{player.name}}</td>
+            <td>{{player.position}}</td>
+        </tr>
+    </tbody>
+</table>
