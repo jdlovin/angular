@@ -12,6 +12,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { PropertyBindComponent } from './component/property-bind/property-bind.component';
 import { InputComponent } from './component/input/input.component';
+import { StyleBindComponent } from './component/style-bind/style-bind.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { InputComponent } from './component/input/input.component';
     HeaderComponent,
     FooterComponent,
     PropertyBindComponent,
-    InputComponent
+    InputComponent,
+    StyleBindComponent
   ],
   imports: [
     BrowserModule,

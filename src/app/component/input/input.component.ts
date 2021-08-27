@@ -31,7 +31,7 @@ export class InputComponent implements OnInit {
 
   onKeyUp(data: any){
     this.comment = data;
-    console.log(140 - data.length);
+    console.log();
     if (data.length > 140){
       console.log("This is pretty long")
     } else {
