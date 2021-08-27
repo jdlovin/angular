@@ -1,7 +1,4 @@
-<h1>Structural Directives - ngFor 4️⃣</h1>
-
-<h1>Player list</h1>
-
+<h1>Employee list</h1>
 
 <table class="table table-bordered">
     <thead>
@@ -12,11 +9,12 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let player of players; even as e; index as i;" [style.background]="e ? '#ccc' : '#fff'"  >
-            <td>{{ i }}</td>
+        <tr *ngFor="let player of players; trackBy: trackById" >
             <td>{{player.id}}</td>
             <td>{{player.name}}</td>
             <td>{{player.position}}</td>
         </tr>
     </tbody>
 </table>
+
+<button class="btn btn-primary" (click)="onButtonClicked()"></button>
