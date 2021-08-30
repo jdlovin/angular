@@ -18,6 +18,8 @@ import { SwitchComponent } from './component/switch/switch.component';
 import { ForWhatComponent } from './component/for-what/for-what.component';
 import { TrackByComponent } from './component/track-by/track-by.component';
 import { PipesComponent } from './component/pipes/pipes.component';
+import { CustomPipesComponent } from './component/custom-pipes/custom-pipes.component';
+import {TitlePipe } from './title.pipe'
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { PipesComponent } from './component/pipes/pipes.component';
     SwitchComponent,
     ForWhatComponent,
     TrackByComponent,
-    PipesComponent
+    PipesComponent,
+    CustomPipesComponent,
+    TitlePipe
   ],
   imports: [
     BrowserModule,
