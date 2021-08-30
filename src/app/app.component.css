@@ -1,0 +1,7 @@
+.main {
+    width: 600px;
+    height: 400px;
+    background-color: orange;
+    border: 1px solid pink;
+    padding: 20px;
+}

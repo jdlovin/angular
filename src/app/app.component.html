@@ -1,12 +1,6 @@
-<app-nav-bar></app-nav-bar>
-<app-header></app-header>
-<div class="row">
-    <div class="col-lg-3">
-        <app-sidebar></app-sidebar>
-    </div>
-    <div class="col-lg-9">
-        <app-custom-pipes></app-custom-pipes>
-    </div>
-</div>
+<div class="main">
+    <h1>App Component(Parent)</h1>
+    {{ message }}
 
-<app-footer></app-footer>
+    <app-in-nout (childEvent)="message=$event" [childData] = "parentData"></app-in-nout>
+</div>

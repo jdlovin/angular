@@ -19,7 +19,8 @@ import { ForWhatComponent } from './component/for-what/for-what.component';
 import { TrackByComponent } from './component/track-by/track-by.component';
 import { PipesComponent } from './component/pipes/pipes.component';
 import { CustomPipesComponent } from './component/custom-pipes/custom-pipes.component';
-import {TitlePipe } from './title.pipe'
+import {TitlePipe } from './title.pipe';
+import { InNoutComponent } from './component/in-nout/in-nout.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import {TitlePipe } from './title.pipe'
     TrackByComponent,
     PipesComponent,
     CustomPipesComponent,
-    TitlePipe
+    TitlePipe,
+    InNoutComponent
   ],
   imports: [
     BrowserModule,
