@@ -1,12 +1,13 @@
 <h1>Structural Directives - ngFor 4️⃣</h1>
 
+<button class="btn btn-warning" type="button" (click)="onClick()">Show/Hide</button>
 <h1>Player list</h1>
 
-
-<table class="table table-bordered">
+<table class="table table-bordered" id="playerTable" *ngIf="display">
     <thead>
         <tr>
             <th>#</th>
+            <th>id</th>
             <th>Name</th>
             <th>Position</th>
         </tr>

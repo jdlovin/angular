@@ -10,15 +10,25 @@ export class ForWhatComponent implements OnInit {
   public names = ['Mark', 'Griezmann', 'Cunha', 'Saurez', 'Felix'];
 
   public players = [
-    { id: 1, name: 'Trippier', position: 'RB/RWB'},
-    { id: 2, name: 'Lemar', position: 'LM'},
-    { id: 3, name: 'Koke', position: 'CM/CDM'},
-    { id: 4, name: 'Saul', position: 'CM'}
+    { id: 1, name: 'Trippier', position: 'RB/RWB' },
+    { id: 2, name: 'Lemar', position: 'LM' },
+    { id: 3, name: 'Koke', position: 'CM/CDM' },
+    { id: 4, name: 'Saul', position: 'CM' }
   ]
 
   constructor() { }
+   display = true;
+
+   onClick() {
+     if(this.display) {
+       this.display = false
+     } else {
+       this.display = true;
+     }
+   }
 
   ngOnInit(): void {
   }
+
 
 }

@@ -17,6 +17,7 @@ import { WhatIfComponent } from './component/what-if/what-if.component';
 import { SwitchComponent } from './component/switch/switch.component';
 import { ForWhatComponent } from './component/for-what/for-what.component';
 import { TrackByComponent } from './component/track-by/track-by.component';
+import { PipesComponent } from './component/pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TrackByComponent } from './component/track-by/track-by.component';
     WhatIfComponent,
     SwitchComponent,
     ForWhatComponent,
-    TrackByComponent
+    TrackByComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
