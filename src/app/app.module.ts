@@ -22,7 +22,8 @@ import { CustomPipesComponent } from './component/custom-pipes/custom-pipes.comp
 import {TitlePipe } from './title.pipe';
 import { InNoutComponent } from './component/in-nout/in-nout.component';
 import { EmployeeDetailComponent } from './component/employee-detail/employee-detail.component';
-import { EmployeeListComponent } from './component/employee-list/employee-list.component'
+import { EmployeeListComponent } from './component/employee-list/employee-list.component';
+import { PostComponent } from './component/post/post.component'
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { EmployeeListComponent } from './component/employee-list/employee-list.c
     TitlePipe,
     InNoutComponent,
     EmployeeDetailComponent,
-    EmployeeListComponent
+    EmployeeListComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
