@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-training';
 
-  public parentData = 'Hi! From the parent';
+  public parentData = 'Hi';
 
-  public message = ''
+  public message = 0;
 }

@@ -16,11 +16,10 @@ export class InNoutComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
   }
 
-  onButtonClick(){
-    this.childEvent.emit('Hi from your child')
-  }
+  count: number = 0;
+
 
 }

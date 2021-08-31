@@ -20,7 +20,9 @@ import { TrackByComponent } from './component/track-by/track-by.component';
 import { PipesComponent } from './component/pipes/pipes.component';
 import { CustomPipesComponent } from './component/custom-pipes/custom-pipes.component';
 import {TitlePipe } from './title.pipe';
-import { InNoutComponent } from './component/in-nout/in-nout.component'
+import { InNoutComponent } from './component/in-nout/in-nout.component';
+import { EmployeeDetailComponent } from './component/employee-detail/employee-detail.component';
+import { EmployeeListComponent } from './component/employee-list/employee-list.component'
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { InNoutComponent } from './component/in-nout/in-nout.component'
     PipesComponent,
     CustomPipesComponent,
     TitlePipe,
-    InNoutComponent
+    InNoutComponent,
+    EmployeeDetailComponent,
+    EmployeeListComponent
   ],
   imports: [
     BrowserModule,
