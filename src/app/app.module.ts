@@ -23,8 +23,9 @@ import {TitlePipe } from './title.pipe';
 import { InNoutComponent } from './component/in-nout/in-nout.component';
 import { EmployeeDetailComponent } from './component/employee-detail/employee-detail.component';
 import { EmployeeListComponent } from './component/employee-list/employee-list.component';
-import { PostComponent } from './component/post/post.component'
-
+import { PostComponent } from './component/post/post.component';
+import { PhotoPostComponent } from './component/photo-post/photo-post.component'
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,11 +48,14 @@ import { PostComponent } from './component/post/post.component'
     InNoutComponent,
     EmployeeDetailComponent,
     EmployeeListComponent,
-    PostComponent
+    PostComponent,
+    PhotoPostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
