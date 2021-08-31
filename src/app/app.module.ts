@@ -28,6 +28,7 @@ import { PhotoPostComponent } from './component/photo-post/photo-post.component'
 import { HttpClientModule } from '@angular/common/http';
 import { DepartmentComponent } from './component/department/department.component';
 import { EmployeeComponent } from './component/employee/employee.component';
+import { DepartmentDetailComponent } from './component/department-detail/department-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,7 +54,8 @@ import { EmployeeComponent } from './component/employee/employee.component';
     PostComponent,
     PhotoPostComponent,
     DepartmentComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    DepartmentDetailComponent
   ],
   imports: [
     BrowserModule,

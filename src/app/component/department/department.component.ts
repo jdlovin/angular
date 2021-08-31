@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-department',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DepartmentComponent implements OnInit {
 
-  constructor() { }
+  departments = [
+    { id: 1, name: 'Admin'},
+    { id: 2, name: 'Sales'},
+    { id: 3, name: 'IT'},
+    { id: 4, name: 'HR'},
+  ]
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  onButtonClick(department: any){
+    this.router.navigate(['/department', department.id])
   }
 
 }
